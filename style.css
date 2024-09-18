@@ -1,0 +1,35 @@
+:root{
+    font-size: 62.5%; /*1rem = 16px*/
+
+    --color-primary: hsl(235, 35%, 19%);
+    --color-secondary: hsl(358, 78%, 69%);
+    --color-font: hsla(0, 0%, 100%, 0.902);
+
+    --color-shadow: hsl(235, 36%, 35%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    background-color: var(--color-primary);
+    font-size: 1.6rem;
+}
+
+p, i, h1{
+    color: var(--color-font);
+}
+
+i{
+    font-size: 3.2rem;
+}
+
+h1{
+    font-size: 3.2rem;
+}
+
+/* ====     CONTENT     ==== */
